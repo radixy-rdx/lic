@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
+	<title>Document</title>
+</head>
+<body>
+	<label>
+		<div class="container" id="container" onclick="abc()">
+			<form onclick="fn()" id="form">
+		<div class="check">
+			<input type="radio" class="radio" id="r1" value="13" name="options">
+			<span class="fake"></span>
+			<p class="license">LICENSE PLAN  #1</p>
+			<sup class="price" >$13 per license</sup>
+		</div>
+	</label>
+		
+	<label>
+		<div class="check">
+			<input type="radio" class="radio" id="r2" value="22" name="options">
+			<span class="fake"></span>
+			<p class="license">LICENSE PLAN #2</p>
+			<sup class="price">$22 per license</sup>
+		</div>
+	</label>
+		
+	<label>
+		<div class="check">
+			<input type="radio" class="radio" id="r3" value="34" name="options">
+			<span class="fake"></span>
+			<p class="license">LICENSE PLAN #3</p>
+			<sup class="price">$34 per license</sup>
+			</form>
+		</div>
+	</label>
+
+
+		<div class="line"></div>
+		<div class="count">
+			<span class="nol">
+				<b>Number of licenses:</b>
+			</span>
+			<select class="sel" id="sel">
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				  <option value="6">6</option>
+				  <option value="7">7</option>
+				  <option value="8">8</option>
+				  <option value="9">9</option>
+				  <option value="10">10</option>
+			</select>
+		</div>
+		<div class="line"></div>
+		<div class="cash">
+			<p class="total">TOTAL: <span id="sum" class="sum"></span><sup class="us">US</sup></p>
+			<input type="button"  value="BUY NOW" class="btn" onclick="al()">
+		</div>
+		<div class="num">
+		<span class="plan">Selected plan: 
+			<span id="output" class="output"></span></span>
+
+	</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
